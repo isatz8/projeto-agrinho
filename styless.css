@@ -1,3 +1,13 @@
+:root {
+    --cor-principal: #7bcc70;
+    --cor-secundaria: #ffffff;
+    --cor-destaque: #7ee5ff;
+}
+
+.logo {
+    color:var(--cor-destaque);
+}
+
 body {
     background: rgb(94, 102, 94);
 }
@@ -9,16 +19,19 @@ header {
     padding: 20px 100px;
     display: f;
     background: rgb(20, 22, 20);
+    color: var(--cor-secundaria);
 }
 
 .container {
     justify-content: center;
     text-align: center;
     margin-top: 40px;
+    color: var(--cor-secundaria);
 }
 
 .h2 {
     text-align: left;
+    color: var(--cor-principal);
 }
 
 footer {
@@ -26,8 +39,16 @@ footer {
     bottom: 0;
     left: 0;
     padding: 20px 100px;
+    color: var(--cor-secundaria);
 }
 
 footer a {
     color: var(--cor-destaque);
+    footer a :hover {
+        color: var(--cor-secundaria);
+    }
+}
+
+#input {
+    margin-bottom: 150px;
 }
