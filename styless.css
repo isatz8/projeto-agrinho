@@ -1,0 +1,33 @@
+body {
+    background: rgb(94, 102, 94);
+}
+
+header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: f;
+    background: rgb(20, 22, 20);
+}
+
+.container {
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.h2 {
+    text-align: left;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 20px 100px;
+}
+
+footer a {
+    color: var(--cor-destaque);
+}
